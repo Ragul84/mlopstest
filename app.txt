@@ -1,4 +1,2 @@
-helloworld
+﻿helloworld
 learningMLops
-20lpa salary
-hello sissy
