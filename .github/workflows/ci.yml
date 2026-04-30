@@ -1,0 +1,16 @@
+name: basic ci
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: print
+        run: echo "successfully learnt basic of how ci works"
